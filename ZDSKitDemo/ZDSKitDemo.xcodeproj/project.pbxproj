@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CE95A9F30FE01E907B36F89 /* Pods_ZDSKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115236B6399B07AB929006F7 /* Pods_ZDSKitDemo.framework */; };
 		F249CBBB299C73A800CCE391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249CBBA299C73A800CCE391 /* AppDelegate.swift */; };
 		F249CBBD299C73A800CCE391 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249CBBC299C73A800CCE391 /* SceneDelegate.swift */; };
 		F249CBBF299C73A800CCE391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F249CBBE299C73A800CCE391 /* ViewController.swift */; };
 		F249CBC2299C73A800CCE391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F249CBC0299C73A800CCE391 /* Main.storyboard */; };
 		F249CBC4299C73A900CCE391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F249CBC3299C73A900CCE391 /* Assets.xcassets */; };
 		F249CBC7299C73A900CCE391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F249CBC5299C73A900CCE391 /* LaunchScreen.storyboard */; };
+		F2FE97CB299C869E003E6FEE /* ZDSAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE97BD299C869E003E6FEE /* ZDSAuth.swift */; };
+		F2FE97CC299C869E003E6FEE /* ZDSPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE97BF299C869E003E6FEE /* ZDSPageView.swift */; };
+		F2FE97CD299C869E003E6FEE /* ZDSPlaceholderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE97C1299C869E003E6FEE /* ZDSPlaceholderBar.swift */; };
+		F2FE97CE299C869E003E6FEE /* ZDSApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE97C3299C869E003E6FEE /* ZDSApplication.swift */; };
+		F2FE97CF299C869E003E6FEE /* ZDSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE97C5299C869E003E6FEE /* ZDSImage.swift */; };
+		F2FE97D0299C869E003E6FEE /* ZDSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE97C7299C869E003E6FEE /* ZDSColor.swift */; };
+		F2FE97D1299C869E003E6FEE /* ZDSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE97C9299C869E003E6FEE /* ZDSNumber.swift */; };
+		F2FE97D5299C871E003E6FEE /* ZDSKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F2FE97D4299C871E003E6FEE /* ZDSKit.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		115236B6399B07AB929006F7 /* Pods_ZDSKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDSKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4D1E69F9777E0310FE21E9 /* Pods-ZDSKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDSKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZDSKitDemo/Pods-ZDSKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B00CD59C35098263596D3DB6 /* Pods-ZDSKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDSKitDemo.release.xcconfig"; path = "Target Support Files/Pods-ZDSKitDemo/Pods-ZDSKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F249CBB7299C73A800CCE391 /* ZDSKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDSKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F249CBBA299C73A800CCE391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F249CBBC299C73A800CCE391 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,14 @@
 		F249CBC3299C73A900CCE391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F249CBC6299C73A900CCE391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F249CBC8299C73A900CCE391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FE97BD299C869E003E6FEE /* ZDSAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSAuth.swift; sourceTree = "<group>"; };
+		F2FE97BF299C869E003E6FEE /* ZDSPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSPageView.swift; sourceTree = "<group>"; };
+		F2FE97C1299C869E003E6FEE /* ZDSPlaceholderBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSPlaceholderBar.swift; sourceTree = "<group>"; };
+		F2FE97C3299C869E003E6FEE /* ZDSApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSApplication.swift; sourceTree = "<group>"; };
+		F2FE97C5299C869E003E6FEE /* ZDSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSImage.swift; sourceTree = "<group>"; };
+		F2FE97C7299C869E003E6FEE /* ZDSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSColor.swift; sourceTree = "<group>"; };
+		F2FE97C9299C869E003E6FEE /* ZDSNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSNumber.swift; sourceTree = "<group>"; };
+		F2FE97D4299C871E003E6FEE /* ZDSKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZDSKit.podspec; path = ../ZDSKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE95A9F30FE01E907B36F89 /* Pods_ZDSKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		679E96C9F62677892980B581 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B4D1E69F9777E0310FE21E9 /* Pods-ZDSKitDemo.debug.xcconfig */,
+				B00CD59C35098263596D3DB6 /* Pods-ZDSKitDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B858435DBCBD129A48E6B3B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				115236B6399B07AB929006F7 /* Pods_ZDSKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F249CBAE299C73A800CCE391 = {
 			isa = PBXGroup;
 			children = (
+				F2FE97BA299C869E003E6FEE /* ZDSKit */,
 				F249CBB9299C73A800CCE391 /* ZDSKitDemo */,
 				F249CBB8299C73A800CCE391 /* Products */,
+				679E96C9F62677892980B581 /* Pods */,
+				B858435DBCBD129A48E6B3B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +108,94 @@
 			path = ZDSKitDemo;
 			sourceTree = "<group>";
 		};
+		F2FE97BA299C869E003E6FEE /* ZDSKit */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE97D4299C871E003E6FEE /* ZDSKit.podspec */,
+				F2FE97CA299C869E003E6FEE /* Assets */,
+				F2FE97BB299C869E003E6FEE /* Classes */,
+			);
+			name = ZDSKit;
+			path = ../ZDSKit;
+			sourceTree = "<group>";
+		};
+		F2FE97BB299C869E003E6FEE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE97C2299C869E003E6FEE /* ZDSApplication */,
+				F2FE97BC299C869E003E6FEE /* ZDSAuth */,
+				F2FE97C6299C869E003E6FEE /* ZDSColor */,
+				F2FE97C4299C869E003E6FEE /* ZDSImage */,
+				F2FE97C8299C869E003E6FEE /* ZDSNumber */,
+				F2FE97BE299C869E003E6FEE /* ZDSPageView */,
+				F2FE97C0299C869E003E6FEE /* ZDSPlaceholder */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F2FE97BC299C869E003E6FEE /* ZDSAuth */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE97BD299C869E003E6FEE /* ZDSAuth.swift */,
+			);
+			path = ZDSAuth;
+			sourceTree = "<group>";
+		};
+		F2FE97BE299C869E003E6FEE /* ZDSPageView */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE97BF299C869E003E6FEE /* ZDSPageView.swift */,
+			);
+			path = ZDSPageView;
+			sourceTree = "<group>";
+		};
+		F2FE97C0299C869E003E6FEE /* ZDSPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE97C1299C869E003E6FEE /* ZDSPlaceholderBar.swift */,
+			);
+			path = ZDSPlaceholder;
+			sourceTree = "<group>";
+		};
+		F2FE97C2299C869E003E6FEE /* ZDSApplication */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE97C3299C869E003E6FEE /* ZDSApplication.swift */,
+			);
+			path = ZDSApplication;
+			sourceTree = "<group>";
+		};
+		F2FE97C4299C869E003E6FEE /* ZDSImage */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE97C5299C869E003E6FEE /* ZDSImage.swift */,
+			);
+			path = ZDSImage;
+			sourceTree = "<group>";
+		};
+		F2FE97C6299C869E003E6FEE /* ZDSColor */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE97C7299C869E003E6FEE /* ZDSColor.swift */,
+			);
+			path = ZDSColor;
+			sourceTree = "<group>";
+		};
+		F2FE97C8299C869E003E6FEE /* ZDSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE97C9299C869E003E6FEE /* ZDSNumber.swift */,
+			);
+			path = ZDSNumber;
+			sourceTree = "<group>";
+		};
+		F2FE97CA299C869E003E6FEE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F249CBCB299C73A900CCE391 /* Build configuration list for PBXNativeTarget "ZDSKitDemo" */;
 			buildPhases = (
+				22AFAB487AF0263613E4B26E /* [CP] Check Pods Manifest.lock */,
 				F249CBB3299C73A800CCE391 /* Sources */,
 				F249CBB4299C73A800CCE391 /* Frameworks */,
 				F249CBB5299C73A800CCE391 /* Resources */,
+				CC45A197F3E957C79557D8D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +259,69 @@
 				F249CBC7299C73A900CCE391 /* LaunchScreen.storyboard in Resources */,
 				F249CBC4299C73A900CCE391 /* Assets.xcassets in Resources */,
 				F249CBC2299C73A800CCE391 /* Main.storyboard in Resources */,
+				F2FE97D5299C871E003E6FEE /* ZDSKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22AFAB487AF0263613E4B26E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZDSKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC45A197F3E957C79557D8D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZDSKitDemo/Pods-ZDSKitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZDSKitDemo/Pods-ZDSKitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZDSKitDemo/Pods-ZDSKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F249CBB3299C73A800CCE391 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FE97CE299C869E003E6FEE /* ZDSApplication.swift in Sources */,
 				F249CBBF299C73A800CCE391 /* ViewController.swift in Sources */,
+				F2FE97D0299C869E003E6FEE /* ZDSColor.swift in Sources */,
+				F2FE97CD299C869E003E6FEE /* ZDSPlaceholderBar.swift in Sources */,
 				F249CBBB299C73A800CCE391 /* AppDelegate.swift in Sources */,
 				F249CBBD299C73A800CCE391 /* SceneDelegate.swift in Sources */,
+				F2FE97D1299C869E003E6FEE /* ZDSNumber.swift in Sources */,
+				F2FE97CF299C869E003E6FEE /* ZDSImage.swift in Sources */,
+				F2FE97CC299C869E003E6FEE /* ZDSPageView.swift in Sources */,
+				F2FE97CB299C869E003E6FEE /* ZDSAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +463,7 @@
 		};
 		F249CBCC299C73A900CCE391 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4D1E69F9777E0310FE21E9 /* Pods-ZDSKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +491,7 @@
 		};
 		F249CBCD299C73A900CCE391 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00CD59C35098263596D3DB6 /* Pods-ZDSKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
