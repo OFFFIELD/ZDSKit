@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZDSKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'ZDSKit'
   s.description      = <<-DESC
     Zhi Da Swift Kit
