@@ -13,6 +13,14 @@
 		0391EBE829A8405B00B5D800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0391EBE629A8405B00B5D800 /* Main.storyboard */; };
 		0391EBEA29A8405C00B5D800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0391EBE929A8405C00B5D800 /* Assets.xcassets */; };
 		0391EBED29A8405C00B5D800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0391EBEB29A8405C00B5D800 /* LaunchScreen.storyboard */; };
+		0391EC2929A85B4500B5D800 /* ZDSAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391EC1D29A85B4500B5D800 /* ZDSAuth.swift */; };
+		0391EC2A29A85B4500B5D800 /* ZDSPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391EC1F29A85B4500B5D800 /* ZDSPageView.swift */; };
+		0391EC2B29A85B4500B5D800 /* ZDSPlaceholderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391EC2129A85B4500B5D800 /* ZDSPlaceholderBar.swift */; };
+		0391EC2C29A85B4500B5D800 /* ZDSPlaceholderBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0391EC2229A85B4500B5D800 /* ZDSPlaceholderBar.xcassets */; };
+		0391EC2D29A85B4500B5D800 /* ZDSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391EC2429A85B4500B5D800 /* ZDSColor.swift */; };
+		0391EC2E29A85B4500B5D800 /* ZDSApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391EC2529A85B4500B5D800 /* ZDSApplication.swift */; };
+		0391EC2F29A85B4500B5D800 /* ZDSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391EC2629A85B4500B5D800 /* ZDSNumber.swift */; };
+		0391EC3029A85B4500B5D800 /* ZDSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391EC2729A85B4500B5D800 /* ZDSImage.swift */; };
 		C80E5ABA81FE83056E1214B7 /* Pods_ZDSKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD4E6550964E2105E3172AE /* Pods_ZDSKitDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +33,14 @@
 		0391EBE929A8405C00B5D800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0391EBEC29A8405C00B5D800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0391EBEE29A8405C00B5D800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0391EC1D29A85B4500B5D800 /* ZDSAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSAuth.swift; sourceTree = "<group>"; };
+		0391EC1F29A85B4500B5D800 /* ZDSPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSPageView.swift; sourceTree = "<group>"; };
+		0391EC2129A85B4500B5D800 /* ZDSPlaceholderBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSPlaceholderBar.swift; sourceTree = "<group>"; };
+		0391EC2229A85B4500B5D800 /* ZDSPlaceholderBar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZDSPlaceholderBar.xcassets; sourceTree = "<group>"; };
+		0391EC2429A85B4500B5D800 /* ZDSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSColor.swift; sourceTree = "<group>"; };
+		0391EC2529A85B4500B5D800 /* ZDSApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSApplication.swift; sourceTree = "<group>"; };
+		0391EC2629A85B4500B5D800 /* ZDSNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSNumber.swift; sourceTree = "<group>"; };
+		0391EC2729A85B4500B5D800 /* ZDSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSImage.swift; sourceTree = "<group>"; };
 		0DD4E6550964E2105E3172AE /* Pods_ZDSKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDSKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB10E2FEA3F30A4AC2D4F95 /* Pods-ZDSKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDSKitDemo.release.xcconfig"; path = "Target Support Files/Pods-ZDSKitDemo/Pods-ZDSKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		911705BF41C5C834EFC47173 /* Pods-ZDSKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDSKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZDSKitDemo/Pods-ZDSKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +61,7 @@
 		0391EBD429A8405B00B5D800 = {
 			isa = PBXGroup;
 			children = (
+				0391EC1A29A85B4500B5D800 /* ZDSKit */,
 				0391EBDF29A8405B00B5D800 /* ZDSKitDemo */,
 				0391EBDE29A8405B00B5D800 /* Products */,
 				912E8491AA2D077C0C632BC0 /* Pods */,
@@ -72,6 +89,70 @@
 				0391EBEE29A8405C00B5D800 /* Info.plist */,
 			);
 			path = ZDSKitDemo;
+			sourceTree = "<group>";
+		};
+		0391EC1A29A85B4500B5D800 /* ZDSKit */ = {
+			isa = PBXGroup;
+			children = (
+				0391EC1B29A85B4500B5D800 /* Classes */,
+				0391EC2829A85B4500B5D800 /* Assets */,
+			);
+			name = ZDSKit;
+			path = ../ZDSKit;
+			sourceTree = "<group>";
+		};
+		0391EC1B29A85B4500B5D800 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0391EC1C29A85B4500B5D800 /* ZDSAuth */,
+				0391EC1E29A85B4500B5D800 /* ZDSPageView */,
+				0391EC2029A85B4500B5D800 /* ZDSPlaceholderBar */,
+				0391EC2329A85B4500B5D800 /* ZDSExtension */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0391EC1C29A85B4500B5D800 /* ZDSAuth */ = {
+			isa = PBXGroup;
+			children = (
+				0391EC1D29A85B4500B5D800 /* ZDSAuth.swift */,
+			);
+			path = ZDSAuth;
+			sourceTree = "<group>";
+		};
+		0391EC1E29A85B4500B5D800 /* ZDSPageView */ = {
+			isa = PBXGroup;
+			children = (
+				0391EC1F29A85B4500B5D800 /* ZDSPageView.swift */,
+			);
+			path = ZDSPageView;
+			sourceTree = "<group>";
+		};
+		0391EC2029A85B4500B5D800 /* ZDSPlaceholderBar */ = {
+			isa = PBXGroup;
+			children = (
+				0391EC2129A85B4500B5D800 /* ZDSPlaceholderBar.swift */,
+				0391EC2229A85B4500B5D800 /* ZDSPlaceholderBar.xcassets */,
+			);
+			path = ZDSPlaceholderBar;
+			sourceTree = "<group>";
+		};
+		0391EC2329A85B4500B5D800 /* ZDSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0391EC2429A85B4500B5D800 /* ZDSColor.swift */,
+				0391EC2529A85B4500B5D800 /* ZDSApplication.swift */,
+				0391EC2629A85B4500B5D800 /* ZDSNumber.swift */,
+				0391EC2729A85B4500B5D800 /* ZDSImage.swift */,
+			);
+			path = ZDSExtension;
+			sourceTree = "<group>";
+		};
+		0391EC2829A85B4500B5D800 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		0A2A866AE9B69C16CB6F917B /* Frameworks */ = {
@@ -153,6 +234,7 @@
 				0391EBED29A8405C00B5D800 /* LaunchScreen.storyboard in Resources */,
 				0391EBEA29A8405C00B5D800 /* Assets.xcassets in Resources */,
 				0391EBE829A8405B00B5D800 /* Main.storyboard in Resources */,
+				0391EC2C29A85B4500B5D800 /* ZDSPlaceholderBar.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,9 +270,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0391EC2D29A85B4500B5D800 /* ZDSColor.swift in Sources */,
 				0391EBE529A8405B00B5D800 /* ViewController.swift in Sources */,
+				0391EC2B29A85B4500B5D800 /* ZDSPlaceholderBar.swift in Sources */,
 				0391EBE129A8405B00B5D800 /* AppDelegate.swift in Sources */,
+				0391EC2E29A85B4500B5D800 /* ZDSApplication.swift in Sources */,
+				0391EC2F29A85B4500B5D800 /* ZDSNumber.swift in Sources */,
 				0391EBE329A8405B00B5D800 /* SceneDelegate.swift in Sources */,
+				0391EC3029A85B4500B5D800 /* ZDSImage.swift in Sources */,
+				0391EC2A29A85B4500B5D800 /* ZDSPageView.swift in Sources */,
+				0391EC2929A85B4500B5D800 /* ZDSAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

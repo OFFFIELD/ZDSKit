@@ -160,7 +160,7 @@ extension ZDSPageView: UIScrollViewDelegate {
     
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         guard let delegate = delegate else { return }
-        let progress = (scrollView.contentOffset.x - .screenWidth) / .screenWidth
+        let progress = (scrollView.contentOffset.x - UIScreen.main.bounds.width) / UIScreen.main.bounds.width
         delegate.pageView(self, progress: progress)
     }
 }
