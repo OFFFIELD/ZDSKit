@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint YCKit.podspec' to ensure this is a
+# Be sure to run `pod lib lint ZDSKit.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZDSKit'
-  s.version          = '0.0.2'
+  s.version          = '0.0.1'
   s.summary          = 'ZDSKit'
   s.description      = <<-DESC
     Zhi Da Swift Kit
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   
   #循环滚动
   s.subspec 'ZDSPageView' do |ss|
-      ss.source_files = 'ZDSKit/Classes/YCPageView/*'
+      ss.source_files = 'ZDSKit/Classes/ZDSPageView/*'
   end
   
   #占位符
