@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZDSKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'ZDSKit'
   s.description      = <<-DESC
     Zhi Da Swift Kit
@@ -22,12 +22,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/OFFFIELD/ZDSKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
-  # s.source_files = 'ZDSKit/Classes/*'
   s.frameworks = 'UIKit', 'Foundation', 'AVKit', 'Photos', 'MediaPlayer', 'CoreLocation', 'CoreGraphics'
+  # s.source_files = 'ZDSKit/Classes/*'
   # s.resource_bundles = {
   #   'ZDSKit' => ['ZDSKit/Assets/*.xcassets']
   # }
-  
+
   #类扩展
   s.subspec 'ZDSAuth' do |ss|
       ss.source_files = 'ZDSKit/Classes/ZDSAuth/*'
@@ -47,7 +47,6 @@ Pod::Spec.new do |s|
   s.subspec 'ZDSPlaceholderBar' do |ss|
       ss.resource     = 'ZDSKit/Classes/ZDSPlaceholderBar/*.xcassets'
       ss.source_files = 'ZDSKit/Classes/ZDSPlaceholderBar/*'
-      ss.dependency 'ZDSKit/ZDSExtension'
   end
 
 end
